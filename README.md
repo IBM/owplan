@@ -68,7 +68,6 @@ To get started with an OpenWhisk bot running on Bluemix, you will need to do the
 - [ ] Complete the installation instructions, including how to download dependencies not included in this repository.
 - [ ] Move strings and other OSCON specifics to properties files to enable reusability for other events.
 - [ ] Add sparklines to show room temperature trends over time, as a way to predict some room conditions in the future, such as baseline temperature at a certain hour.
-- [ ]
 
 ## Contributors
 
