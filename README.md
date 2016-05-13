@@ -4,7 +4,7 @@ The *Conference Plan Bot* is a serverless, event-driven, bot built on the [OpenW
 
 An instance is running on the hosted OpenWhisk environment provided by IBM Bluemix. It has an associated Cloud Foundry app at http://owplan.mybluemix.net/ which provides the schedule UI, and two proxy services for handling Twitter integration and IoT device reading API calls.
 
-The bot is designed to reply to user tweets that request conference schedule information with real time data on sessions and room conditions. It's currently configured for the O'Reilly Open Source Convention (OSCON) which runs from May 16th to May 20th
+The bot is designed to reply to user tweets that request conference schedule information with real time data on sessions and room conditions. It's currently configured for the [O'Reilly Open Source Convention (OSCON)](http://conferences.oreilly.com/oscon/open-source-us) which runs from May 16th to May 20th.
 
 For example, if you tweeted [@owplan](https://twitter.com/owplan) with the keywords "serverless, bot, Docker, containers" you'd get back a list of sessions at OSCON conference matching those terms for each day.
 
@@ -14,7 +14,9 @@ You can read more about bots, serverless programming, and the motivation for the
 
 ## Installation
 
-Detailed instructions are pending. For now, explore `devops/create-update-actions.sh` and the individual action code in the `openwhisk/actions/js` folder. These describe the microservices built for the demo, and represent actions of moderate complexity that are broken into several files and use promises to handle asynchronous processing.
+Detailed instructions are pending. This repository is meant to provide examples of reusable code and approaches to building OpenWhisk based bots, rather than completely working code with all dependencies.
+
+For now, explore `devops/create-update-actions.sh` and the individual action code in the `openwhisk/actions/js` folder. These describe the microservices built for the demo, and represent actions of moderate complexity that are broken into several files and use promises to handle asynchronous processing.
 
 Your primary workflow after setup will be editing actions in JavaScript, compiling them if they consist of more than one file (or have third party NPMs not provided by your OpenWhisk environment), and uploading them.
 
