@@ -10,7 +10,7 @@ For example, if you tweeted [@owplan](https://twitter.com/owplan) with the keywo
 
 ![Tweet example](docs/tweet-example.png)
 
-You can read more about bots, serverless programming, and the motivation for the Conference Plan Bot on the blog post at [developerWorks Open](https://developer.ibm.com/open/2016/05/12/openwhisk-planner/).
+You can read more about bots, serverless programming, and the motivation for the Conference Plan Bot on the blog post at [developerWorks Open](https://developer.ibm.com/open/2016/05/13/openwhisk-planner-bot/).
 
 ## Installation
 
