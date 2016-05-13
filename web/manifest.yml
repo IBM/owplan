@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: owplan
+  host: ${random-word}
+  disk_quota: 1024M
+  services:
+  - cloudant-owplan
+  buildpack: php_buildpack

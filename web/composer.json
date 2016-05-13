@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sag/sag" : "dev-master",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
